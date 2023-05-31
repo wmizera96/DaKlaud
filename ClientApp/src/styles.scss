@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+body, html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+$color-primary: #27374D;
+$color-secondary: #526D82;
+$color-tertiary: #9DB2BF;
+$color-text: #DDE6ED;
+
+$padding-xl: 24px;
+$padding-l: 16px;
+$padding-m: 12px;
+$padding-s: 8px;
+$padding-xs: 4px;
+
+
+* {
+  color: $color-text;
+}
